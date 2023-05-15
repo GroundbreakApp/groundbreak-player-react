@@ -32,7 +32,7 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 var import_react3 = __toESM(require("react"));
 
-// ../groundbreak-player/node_modules/media-chrome/dist/constants.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js
 var MediaUIEvents = {
   MEDIA_PLAY_REQUEST: "mediaplayrequest",
   MEDIA_PAUSE_REQUEST: "mediapauserequest",
@@ -170,7 +170,7 @@ var StreamTypes = {
   UNKNOWN: "unknown"
 };
 
-// ../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js
 var nouns = {
   AUDIO_PLAYER: () => "audio player",
   VIDEO_PLAYER: () => "video player",
@@ -203,7 +203,7 @@ var labels_default = {
   ...verbs
 };
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js
 function constToCamel(word, upperFirst = false) {
   return word.split("_").map(function(x, i) {
     return (i || upperFirst ? x[0].toUpperCase() : x[0].toLowerCase()) + x.slice(1).toLowerCase();
@@ -222,7 +222,7 @@ function isNumericString(str) {
 }
 var delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/time.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js
 var UnitLabels = [
   {
     singular: "hour",
@@ -306,7 +306,7 @@ function serializeTimeRanges(timeRanges = emptyTimeRanges) {
   ].join(":")).join(" ");
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js
 var updateIconText = (svg, value, selector = ".value") => {
   const node = svg.querySelector(selector);
   if (!node)
@@ -364,7 +364,7 @@ function getOrInsertCSSRule(styleParent, selectorText) {
   return style.sheet.cssRules[style.sheet.cssRules.length - 1];
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js
 var EventTarget = class {
   addEventListener() {
   }
@@ -410,7 +410,7 @@ var isServer = typeof window === "undefined" || typeof window.customElements ===
 var Window = isServer ? windowShim : window;
 var Document = isServer ? documentShim : window.document;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js
 var __defProp2 = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp2(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => {
@@ -600,7 +600,7 @@ if (!Window.customElements.get("media-chrome-button")) {
 }
 var media_chrome_button_default = MediaChromeButton;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js
 var airplayIcon = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M22.13 3H3.87a.87.87 0 0 0-.87.87v13.26a.87.87 0 0 0 .87.87h3.4L9 16H5V5h16v11h-4l1.72 2h3.4a.87.87 0 0 0 .87-.87V3.87a.87.87 0 0 0-.86-.87Zm-8.75 11.44a.5.5 0 0 0-.76 0l-4.91 5.73a.5.5 0 0 0 .38.83h9.82a.501.501 0 0 0 .38-.83l-4.91-5.73Z"/>
 </svg>
@@ -635,7 +635,7 @@ if (!Window.customElements.get("media-airplay-button")) {
   Window.customElements.define("media-airplay-button", MediaAirplayButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js
 var enterIcon = `<svg aria-hidden="true" viewBox="0 0 24 24"><g><path class="cast_caf_icon_arch0" d="M1,18 L1,21 L4,21 C4,19.3 2.66,18 1,18 L1,18 Z"/><path class="cast_caf_icon_arch1" d="M1,14 L1,16 C3.76,16 6,18.2 6,21 L8,21 C8,17.13 4.87,14 1,14 L1,14 Z"/><path class="cast_caf_icon_arch2" d="M1,10 L1,12 C5.97,12 10,16.0 10,21 L12,21 C12,14.92 7.07,10 1,10 L1,10 Z"/><path class="cast_caf_icon_box" d="M21,3 L3,3 C1.9,3 1,3.9 1,5 L1,8 L3,8 L3,5 L21,5 L21,19 L14,19 L14,21 L21,21 C22.1,21 23,20.1 23,19 L23,5 C23,3.9 22.1,3 21,3 L21,3 Z"/></g></svg>`;
 var exitIcon = `<svg aria-hidden="true" viewBox="0 0 24 24"><g><path class="cast_caf_icon_arch0" d="M1,18 L1,21 L4,21 C4,19.3 2.66,18 1,18 L1,18 Z"/><path class="cast_caf_icon_arch1" d="M1,14 L1,16 C3.76,16 6,18.2 6,21 L8,21 C8,17.13 4.87,14 1,14 L1,14 Z"/><path class="cast_caf_icon_arch2" d="M1,10 L1,12 C5.97,12 10,16.0 10,21 L12,21 C12,14.92 7.07,10 1,10 L1,10 Z"/><path class="cast_caf_icon_box" d="M21,3 L3,3 C1.9,3 1,3.9 1,5 L1,8 L3,8 L3,5 L21,5 L21,19 L14,19 L14,21 L21,21 C22.1,21 23,20.1 23,19 L23,5 C23,3.9 22.1,3 21,3 L21,3 Z"/><path class="cast_caf_icon_boxfill" d="M5,7 L5,8.63 C8,8.6 13.37,14 13.37,17 L19,17 L19,7 Z"/></g></svg>`;
 var slotTemplate2 = Document.createElement("template");
@@ -693,7 +693,7 @@ if (!Window.customElements.get("media-cast-button")) {
   Window.customElements.define("media-cast-button", MediaCastButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js
 var __accessCheck2 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -826,7 +826,7 @@ if (!Window.customElements.get("media-gesture-receiver")) {
   Window.customElements.define("media-gesture-receiver", MediaGestureReceiver);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-container.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-container.js
 var template3 = Document.createElement("template");
 template3.innerHTML = `
   <style>
@@ -1176,7 +1176,7 @@ if (!Window.customElements.get("media-container-temp")) {
 }
 var media_container_default = MediaContainer;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js
 var __accessCheck3 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -1280,7 +1280,7 @@ _el = /* @__PURE__ */ new WeakMap();
 _attr = /* @__PURE__ */ new WeakMap();
 _tokens = /* @__PURE__ */ new WeakMap();
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js
 var splitTextTracksStr = (textTracksStr = "") => textTracksStr.split(/\s+/);
 var parseTextTrackStr = (textTrackStr = "") => {
   const [language, encodedLabel] = textTrackStr.split(":");
@@ -1403,7 +1403,7 @@ var toggleSubsCaps = (el, forceOff = false) => {
   }
 };
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js
 var fullscreenApi = {
   enter: "requestFullscreen",
   exit: "exitFullscreen",
@@ -1421,7 +1421,7 @@ if (Document.fullscreenElement === void 0) {
   fullscreenApi.enabled = "webkitFullscreenEnabled";
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js
 var testMediaEl;
 var getTestMediaEl = () => {
   var _a, _b;
@@ -1451,7 +1451,7 @@ var pipSupported = hasPipSupport();
 var airplaySupported = !!Window.WebKitPlaybackTargetAvailabilityEvent;
 var castSupported = !!Window.chrome;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/controller.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/controller.js
 var volumeSupported;
 var volumeSupportPromise = hasVolumeSupportAsync().then((supported) => {
   volumeSupported = supported;
@@ -2014,7 +2014,7 @@ var MediaUIRequestHandlers = {
   }
 };
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-controller.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-controller.js
 var __accessCheck4 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2488,7 +2488,7 @@ if (!Window.customElements.get("media-controller")) {
 }
 var media_controller_default = MediaController;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js
 var __accessCheck5 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2800,7 +2800,7 @@ if (!Window.customElements.get("media-chrome-range")) {
 }
 var media_chrome_range_default = MediaChromeRange;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js
 var __accessCheck6 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2887,7 +2887,7 @@ if (!Window.customElements.get("media-control-bar")) {
   Window.customElements.define("media-control-bar", MediaControlBar);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js
 var __accessCheck7 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2991,7 +2991,7 @@ if (!Window.customElements.get("media-text-display")) {
 }
 var media_text_display_default = MediaTextDisplay;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js
 var __accessCheck8 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3033,7 +3033,7 @@ if (!Window.customElements.get("media-current-time-display")) {
   Window.customElements.define("media-current-time-display", MediaCurrentTimeDisplay);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js
 var __accessCheck9 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3075,7 +3075,7 @@ if (!Window.customElements.get("media-duration-display")) {
   Window.customElements.define("media-duration-display", MediaDurationDisplay);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-time-display.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-display.js
 var __accessCheck10 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3241,7 +3241,7 @@ if (!Window.customElements.get("media-time-display")) {
   Window.customElements.define("media-time-display", MediaTimeDisplay);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js
 var ccIconOn = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M22.83 5.68a2.58 2.58 0 0 0-2.3-2.5c-3.62-.24-11.44-.24-15.06 0a2.58 2.58 0 0 0-2.3 2.5c-.23 4.21-.23 8.43 0 12.64a2.58 2.58 0 0 0 2.3 2.5c3.62.24 11.44.24 15.06 0a2.58 2.58 0 0 0 2.3-2.5c.23-4.21.23-8.43 0-12.64Zm-11.39 9.45a3.07 3.07 0 0 1-1.91.57 3.06 3.06 0 0 1-2.34-1 3.75 3.75 0 0 1-.92-2.67 3.92 3.92 0 0 1 .92-2.77 3.18 3.18 0 0 1 2.43-1 2.94 2.94 0 0 1 2.13.78c.364.359.62.813.74 1.31l-1.43.35a1.49 1.49 0 0 0-1.51-1.17 1.61 1.61 0 0 0-1.29.58 2.79 2.79 0 0 0-.5 1.89 3 3 0 0 0 .49 1.93 1.61 1.61 0 0 0 1.27.58 1.48 1.48 0 0 0 1-.37 2.1 2.1 0 0 0 .59-1.14l1.4.44a3.23 3.23 0 0 1-1.07 1.69Zm7.22 0a3.07 3.07 0 0 1-1.91.57 3.06 3.06 0 0 1-2.34-1 3.75 3.75 0 0 1-.92-2.67 3.88 3.88 0 0 1 .93-2.77 3.14 3.14 0 0 1 2.42-1 3 3 0 0 1 2.16.82 2.8 2.8 0 0 1 .73 1.31l-1.43.35a1.49 1.49 0 0 0-1.51-1.21 1.61 1.61 0 0 0-1.29.58A2.79 2.79 0 0 0 15 12a3 3 0 0 0 .49 1.93 1.61 1.61 0 0 0 1.27.58 1.44 1.44 0 0 0 1-.37 2.1 2.1 0 0 0 .6-1.15l1.4.44a3.17 3.17 0 0 1-1.1 1.7Z"/>
 </svg>`;
@@ -3324,7 +3324,7 @@ if (!Window.customElements.get("media-captions-button")) {
   Window.customElements.define("media-captions-button", MediaCaptionsButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js
 var DEFAULT_SEEK_OFFSET2 = "30";
 var forwardIcon = `<svg aria-hidden="true" viewBox="0 0 20 24"><defs><style>.text{font-size:8px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style></defs><text class="text value" transform="translate(8.9 19.87)">${DEFAULT_SEEK_OFFSET2}</text><path d="M10 6V3l5.61 4L10 10.94V8a5.54 5.54 0 0 0-1.9 10.48v2.12A7.5 7.5 0 0 1 10 6Z"/></svg>`;
 var slotTemplate4 = Document.createElement("template");
@@ -3390,7 +3390,7 @@ if (!Window.customElements.get("media-seek-forward-button")) {
   Window.customElements.define("media-seek-forward-button", MediaSeekForwardButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js
 var enterFullscreenIcon = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M16 3v2.5h3.5V9H22V3h-6ZM4 9h2.5V5.5H10V3H4v6Zm15.5 9.5H16V21h6v-6h-2.5v3.5ZM6.5 15H4v6h6v-2.5H6.5V15Z"/>
 </svg>`;
@@ -3452,7 +3452,7 @@ if (!Window.customElements.get("media-fullscreen-button")) {
   Window.customElements.define("media-fullscreen-button", MediaFullscreenButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-live-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-live-button.js
 var { MEDIA_TIME_IS_LIVE, MEDIA_PAUSED } = MediaUIAttributes;
 var { MEDIA_SEEK_TO_LIVE_REQUEST, MEDIA_PLAY_REQUEST } = MediaUIEvents;
 var indicatorSVG = '<svg viewBox="0 0 6 12"><circle cx="3" cy="6" r="2"></circle></svg>';
@@ -3523,7 +3523,7 @@ if (!Window.customElements.get("media-live-button")) {
   Window.customElements.define("media-live-button", MediaLiveButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js
 var offIcon = `<svg aria-hidden="true" viewBox="0 0 24 24">
   <path d="M16.5 12A4.5 4.5 0 0 0 14 8v2.18l2.45 2.45a4.22 4.22 0 0 0 .05-.63Zm2.5 0a6.84 6.84 0 0 1-.54 2.64L20 16.15A8.8 8.8 0 0 0 21 12a9 9 0 0 0-7-8.77v2.06A7 7 0 0 1 19 12ZM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25A6.92 6.92 0 0 1 14 18.7v2.06A9 9 0 0 0 17.69 19l2 2.05L21 19.73l-9-9L4.27 3ZM12 4 9.91 6.09 12 8.18V4Z"/>
 </svg>`;
@@ -3598,7 +3598,7 @@ if (!Window.customElements.get("media-mute-button")) {
   Window.customElements.define("media-mute-button", MediaMuteButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js
 var pipIcon = `<svg aria-hidden="true" viewBox="0 0 28 24">
   <path d="M24 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1Zm-1 16H5V5h18v14Zm-3-8h-7v5h7v-5Z"/>
 </svg>`;
@@ -3653,7 +3653,7 @@ if (!Window.customElements.get("media-pip-button")) {
   Window.customElements.define("media-pip-button", MediaPipButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-play-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-play-button.js
 var playIcon = `<svg aria-hidden="true" viewBox="0 0 24 24">
   <path d="m6 21 15-9L6 3v18Z"/>
 </svg>`;
@@ -3710,7 +3710,7 @@ if (!Window.customElements.get("media-play-button")) {
   Window.customElements.define("media-play-button", MediaPlayButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js
 var DEFAULT_RATES = [1, 1.25, 1.5, 1.75, 2];
 var DEFAULT_RATE = 1;
 var slotTemplate10 = Document.createElement("template");
@@ -3761,7 +3761,7 @@ if (!Window.customElements.get("media-playback-rate-button")) {
   Window.customElements.define("media-playback-rate-button", MediaPlaybackRateButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js
 var template7 = Document.createElement("template");
 template7.innerHTML = `
   <style>
@@ -3825,7 +3825,7 @@ if (!Window.customElements.get("media-poster-image")) {
   Window.customElements.define("media-poster-image", MediaPosterImage);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js
 var DEFAULT_SEEK_OFFSET3 = "30";
 var backwardIcon = `<svg aria-hidden="true" viewBox="0 0 20 24"><defs><style>.text{font-size:8px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style></defs><text class="text value" transform="translate(2.18 19.87)">${DEFAULT_SEEK_OFFSET3}</text><path d="M10 6V3L4.37 7 10 10.94V8a5.54 5.54 0 0 1 1.9 10.48v2.12A7.5 7.5 0 0 0 10 6Z"/></svg>`;
 var slotTemplate11 = Document.createElement("template");
@@ -3891,7 +3891,7 @@ if (!Window.customElements.get("media-seek-backward-button")) {
   Window.customElements.define("media-seek-backward-button", MediaSeekBackwardButton);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js
 var __accessCheck11 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3933,7 +3933,7 @@ if (!Window.customElements.get("media-preview-time-display")) {
   Window.customElements.define("media-preview-time-display", MediaPreviewTimeDisplay);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js
 var __accessCheck12 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4069,7 +4069,7 @@ if (!Window.customElements.get("media-preview-thumbnail")) {
   Window.customElements.define("media-preview-thumbnail", MediaPreviewThumbnail);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-time-range.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-range.js
 var __accessCheck13 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4496,7 +4496,7 @@ if (!Window.customElements.get("media-time-range")) {
   Window.customElements.define("media-time-range", MediaTimeRange);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js
 var __accessCheck14 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4645,7 +4645,7 @@ if (!Window.customElements.get("media-loading-indicator")) {
   Window.customElements.define("media-loading-indicator", MediaLoadingIndicator);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js
 var DEFAULT_MAX_VOLUME = 100;
 var toVolume = (el) => {
   var _a;
@@ -4700,7 +4700,7 @@ if (!Window.customElements.get("media-volume-range")) {
   Window.customElements.define("media-volume-range", MediaVolumeRange);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/index.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/index.js
 var MediaChrome = class extends media_controller_default {
 };
 if (!Window.customElements.get("media-chrome")) {
@@ -4718,7 +4718,7 @@ if (!Window.customElements.get("media-container")) {
   Window.customElements.define("media-container", MediaContainer2);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js
 var __accessCheck15 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5100,7 +5100,7 @@ if (!Window.customElements.get("media-chrome-listbox")) {
 }
 var media_chrome_listbox_default = MediaChromeListbox;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js
 var __accessCheck16 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5394,7 +5394,7 @@ if (!Window.customElements.get("media-chrome-selectmenu")) {
 }
 var media_chrome_selectmenu_default = MediaChromeSelectMenu;
 
-// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js
 var template13 = Document.createElement("template");
 template13.innerHTML = `
 <style>
@@ -5500,7 +5500,7 @@ if (!Window.customElements.get("media-chrome-listitem")) {
   Window.customElements.define("media-chrome-listitem", MediaChromeListitem);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js
 var __accessCheck17 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5727,7 +5727,7 @@ if (!Window.customElements.get("media-captions-listbox")) {
   Window.customElements.define("media-captions-listbox", MediaCaptionsListbox);
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js
 var MediaCaptionsSelectMenu = class extends media_chrome_selectmenu_default {
   constructor() {
     super();
@@ -5754,13 +5754,13 @@ if (!Window.customElements.get("media-captions-selectmenu")) {
   Window.customElements.define("media-captions-selectmenu", MediaCaptionsSelectMenu);
 }
 
-// ../groundbreak-player/dist/index.mjs
+// node_modules/@groundbreak/groundbreak-player/dist/index.mjs
 var import_mux_video = __toESM(require("@mux/mux-video"), 1);
 var import_playback_core = require("@mux/playback-core");
 var import_mux_video2 = require("@mux/mux-video");
 var import_playback_core2 = require("@mux/playback-core");
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js
 var __defProp3 = Object.defineProperty;
 var __defNormalProp2 = (obj, key, value) => key in obj ? __defProp3(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField2 = (obj, key, value) => {
@@ -6096,7 +6096,7 @@ function swapdom(parent, a, b, end = null) {
   return b;
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js
 var pipeModifiers = {
   string: (value) => String(value)
 };
@@ -6324,7 +6324,7 @@ function tokenize2(str, parsers) {
   return tokens;
 }
 
-// ../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js
+// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js
 var __defProp4 = Object.defineProperty;
 var __defNormalProp3 = (obj, key, value) => key in obj ? __defProp4(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField3 = (obj, key, value) => {
@@ -6540,7 +6540,7 @@ if (!Window.customElements.get("media-theme")) {
   Window.customElements.define("media-theme", MediaThemeElement);
 }
 
-// ../groundbreak-player/dist/index.mjs
+// node_modules/@groundbreak/groundbreak-player/dist/index.mjs
 var import_playback_core3 = require("@mux/playback-core");
 var import_mux_video3 = require("@mux/mux-video");
 var __accessCheck20 = (obj, member, msg) => {
