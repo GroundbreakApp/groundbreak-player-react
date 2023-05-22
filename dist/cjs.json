@@ -1,955 +1,955 @@
 {
   "inputs": {
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/constants.js": {
       "bytes": 5425,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js": {
       "bytes": 1126,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js": {
       "bytes": 899,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js": {
       "bytes": 2660,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js": {
       "bytes": 1742,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js": {
       "bytes": 991,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js": {
       "bytes": 7198,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js": {
       "bytes": 1509,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js": {
       "bytes": 3394,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js": {
       "bytes": 5779,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-container.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-container.js": {
       "bytes": 11245,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js": {
       "bytes": 2955,
       "imports": []
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js": {
       "bytes": 4769,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js": {
       "bytes": 701,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js": {
       "bytes": 1408,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/controller.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/controller.js": {
       "bytes": 18303,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-controller.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-controller.js": {
       "bytes": 18203,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-container.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-container.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/controller.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/controller.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js": {
       "bytes": 11679,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js": {
       "bytes": 3375,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js": {
       "bytes": 4127,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js": {
       "bytes": 1845,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js": {
       "bytes": 1812,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-display.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-time-display.js": {
       "bytes": 6129,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js": {
       "bytes": 5410,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js": {
       "bytes": 2836,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js": {
       "bytes": 2720,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-live-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-live-button.js": {
       "bytes": 2753,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js": {
       "bytes": 3562,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js": {
       "bytes": 2309,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-play-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-play-button.js": {
       "bytes": 2265,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js": {
       "bytes": 2402,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js": {
       "bytes": 2025,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js": {
       "bytes": 2858,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js": {
       "bytes": 1865,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js": {
       "bytes": 5373,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-range.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-time-range.js": {
       "bytes": 17290,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js": {
       "bytes": 5542,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js": {
       "bytes": 2091,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/index.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/index.js": {
       "bytes": 2814,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-controller.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-controller.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-time-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-live-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-live-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-play-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-play-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-range.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-time-range.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js": {
       "bytes": 14550,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js": {
       "bytes": 12427,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js": {
       "bytes": 3313,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js": {
       "bytes": 10676,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/constants.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js": {
       "bytes": 1345,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js": {
       "bytes": 10356,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js": {
       "bytes": 6892,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js": {
+    "../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js": {
       "bytes": 7209,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js",
           "kind": "import-statement"
         }
       ]
     },
-    "node_modules/@groundbreak/groundbreak-player/dist/index.mjs": {
-      "bytes": 118263,
+    "../groundbreak-player/dist/index.mjs": {
+      "bytes": 118696,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/index.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/index.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js",
           "kind": "import-statement"
         },
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js",
+          "path": "../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js",
           "kind": "import-statement"
         }
       ]
@@ -974,7 +974,7 @@
       "bytes": 9895,
       "imports": [
         {
-          "path": "node_modules/@groundbreak/groundbreak-player/dist/index.mjs",
+          "path": "../groundbreak-player/dist/index.mjs",
           "kind": "import-statement"
         },
         {
@@ -1001,7 +1001,7 @@
       "imports": [],
       "exports": [],
       "inputs": {},
-      "bytes": 609303
+      "bytes": 608716
     },
     "dist/index.cjs.js": {
       "imports": [],
@@ -1011,148 +1011,148 @@
         "src/index.tsx": {
           "bytesInOutput": 4459
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/constants.js": {
           "bytesInOutput": 4991
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js": {
           "bytesInOutput": 1064
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js": {
           "bytesInOutput": 616
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/time.js": {
           "bytesInOutput": 2519
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js": {
           "bytesInOutput": 1603
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js": {
           "bytesInOutput": 927
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js": {
           "bytesInOutput": 7045
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js": {
           "bytesInOutput": 1177
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js": {
           "bytesInOutput": 3084
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js": {
           "bytesInOutput": 5482
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-container.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-container.js": {
           "bytesInOutput": 10958
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js": {
           "bytesInOutput": 3013
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js": {
           "bytesInOutput": 4425
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js": {
           "bytesInOutput": 618
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js": {
           "bytesInOutput": 1072
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/controller.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/controller.js": {
           "bytesInOutput": 17585
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-controller.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-controller.js": {
           "bytesInOutput": 17733
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js": {
           "bytesInOutput": 11567
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js": {
           "bytesInOutput": 3195
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js": {
           "bytesInOutput": 3932
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js": {
           "bytesInOutput": 1551
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js": {
           "bytesInOutput": 1535
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-display.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-time-display.js": {
           "bytesInOutput": 5743
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js": {
           "bytesInOutput": 5041
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js": {
           "bytesInOutput": 2437
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js": {
           "bytesInOutput": 2395
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-live-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-live-button.js": {
           "bytesInOutput": 2417
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js": {
           "bytesInOutput": 3253
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js": {
           "bytesInOutput": 2007
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-play-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-play-button.js": {
           "bytesInOutput": 1958
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js": {
           "bytesInOutput": 2038
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js": {
           "bytesInOutput": 1859
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js": {
           "bytesInOutput": 2462
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js": {
           "bytesInOutput": 1587
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js": {
           "bytesInOutput": 5108
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-range.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-time-range.js": {
           "bytesInOutput": 17229
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js": {
           "bytesInOutput": 5295
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js": {
           "bytesInOutput": 1775
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/index.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/index.js": {
           "bytesInOutput": 502
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js": {
           "bytesInOutput": 14869
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js": {
           "bytesInOutput": 12649
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js": {
           "bytesInOutput": 3080
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js": {
           "bytesInOutput": 10487
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js": {
           "bytesInOutput": 1028
         },
-        "node_modules/@groundbreak/groundbreak-player/dist/index.mjs": {
-          "bytesInOutput": 119059
+        "../groundbreak-player/dist/index.mjs": {
+          "bytesInOutput": 119492
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js": {
           "bytesInOutput": 10539
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js": {
           "bytesInOutput": 6669
         },
-        "node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js": {
+        "../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js": {
           "bytesInOutput": 7057
         },
         "src/common/utils.ts": {
@@ -1168,7 +1168,7 @@
           "bytesInOutput": 210
         }
       },
-      "bytes": 368339
+      "bytes": 367645
     }
   }
 }

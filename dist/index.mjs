@@ -1,7 +1,7 @@
 // src/index.tsx
 import React, { useEffect as useEffect3 } from "react";
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/constants.js
+// ../groundbreak-player/node_modules/media-chrome/dist/constants.js
 var MediaUIEvents = {
   MEDIA_PLAY_REQUEST: "mediaplayrequest",
   MEDIA_PAUSE_REQUEST: "mediapauserequest",
@@ -139,7 +139,7 @@ var StreamTypes = {
   UNKNOWN: "unknown"
 };
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/labels/labels.js
+// ../groundbreak-player/node_modules/media-chrome/dist/labels/labels.js
 var nouns = {
   AUDIO_PLAYER: () => "audio player",
   VIDEO_PLAYER: () => "video player",
@@ -172,7 +172,7 @@ var labels_default = {
   ...verbs
 };
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/utils.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/utils.js
 function constToCamel(word, upperFirst = false) {
   return word.split("_").map(function(x, i) {
     return (i || upperFirst ? x[0].toUpperCase() : x[0].toLowerCase()) + x.slice(1).toLowerCase();
@@ -191,7 +191,7 @@ function isNumericString(str) {
 }
 var delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/time.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/time.js
 var UnitLabels = [
   {
     singular: "hour",
@@ -275,7 +275,7 @@ function serializeTimeRanges(timeRanges = emptyTimeRanges) {
   ].join(":")).join(" ");
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/element-utils.js
 var updateIconText = (svg, value, selector = ".value") => {
   const node = svg.querySelector(selector);
   if (!node)
@@ -333,7 +333,7 @@ function getOrInsertCSSRule(styleParent, selectorText) {
   return style.sheet.cssRules[style.sheet.cssRules.length - 1];
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/server-safe-globals.js
 var EventTarget = class {
   addEventListener() {
   }
@@ -379,7 +379,7 @@ var isServer = typeof window === "undefined" || typeof window.customElements ===
 var Window = isServer ? windowShim : window;
 var Document = isServer ? documentShim : window.document;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-chrome-button.js
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => {
@@ -569,7 +569,7 @@ if (!Window.customElements.get("media-chrome-button")) {
 }
 var media_chrome_button_default = MediaChromeButton;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-airplay-button.js
 var airplayIcon = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M22.13 3H3.87a.87.87 0 0 0-.87.87v13.26a.87.87 0 0 0 .87.87h3.4L9 16H5V5h16v11h-4l1.72 2h3.4a.87.87 0 0 0 .87-.87V3.87a.87.87 0 0 0-.86-.87Zm-8.75 11.44a.5.5 0 0 0-.76 0l-4.91 5.73a.5.5 0 0 0 .38.83h9.82a.501.501 0 0 0 .38-.83l-4.91-5.73Z"/>
 </svg>
@@ -604,7 +604,7 @@ if (!Window.customElements.get("media-airplay-button")) {
   Window.customElements.define("media-airplay-button", MediaAirplayButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-cast-button.js
 var enterIcon = `<svg aria-hidden="true" viewBox="0 0 24 24"><g><path class="cast_caf_icon_arch0" d="M1,18 L1,21 L4,21 C4,19.3 2.66,18 1,18 L1,18 Z"/><path class="cast_caf_icon_arch1" d="M1,14 L1,16 C3.76,16 6,18.2 6,21 L8,21 C8,17.13 4.87,14 1,14 L1,14 Z"/><path class="cast_caf_icon_arch2" d="M1,10 L1,12 C5.97,12 10,16.0 10,21 L12,21 C12,14.92 7.07,10 1,10 L1,10 Z"/><path class="cast_caf_icon_box" d="M21,3 L3,3 C1.9,3 1,3.9 1,5 L1,8 L3,8 L3,5 L21,5 L21,19 L14,19 L14,21 L21,21 C22.1,21 23,20.1 23,19 L23,5 C23,3.9 22.1,3 21,3 L21,3 Z"/></g></svg>`;
 var exitIcon = `<svg aria-hidden="true" viewBox="0 0 24 24"><g><path class="cast_caf_icon_arch0" d="M1,18 L1,21 L4,21 C4,19.3 2.66,18 1,18 L1,18 Z"/><path class="cast_caf_icon_arch1" d="M1,14 L1,16 C3.76,16 6,18.2 6,21 L8,21 C8,17.13 4.87,14 1,14 L1,14 Z"/><path class="cast_caf_icon_arch2" d="M1,10 L1,12 C5.97,12 10,16.0 10,21 L12,21 C12,14.92 7.07,10 1,10 L1,10 Z"/><path class="cast_caf_icon_box" d="M21,3 L3,3 C1.9,3 1,3.9 1,5 L1,8 L3,8 L3,5 L21,5 L21,19 L14,19 L14,21 L21,21 C22.1,21 23,20.1 23,19 L23,5 C23,3.9 22.1,3 21,3 L21,3 Z"/><path class="cast_caf_icon_boxfill" d="M5,7 L5,8.63 C8,8.6 13.37,14 13.37,17 L19,17 L19,7 Z"/></g></svg>`;
 var slotTemplate2 = Document.createElement("template");
@@ -662,7 +662,7 @@ if (!Window.customElements.get("media-cast-button")) {
   Window.customElements.define("media-cast-button", MediaCastButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-gesture-receiver.js
 var __accessCheck2 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -795,7 +795,7 @@ if (!Window.customElements.get("media-gesture-receiver")) {
   Window.customElements.define("media-gesture-receiver", MediaGestureReceiver);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-container.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-container.js
 var template3 = Document.createElement("template");
 template3.innerHTML = `
   <style>
@@ -1145,7 +1145,7 @@ if (!Window.customElements.get("media-container-temp")) {
 }
 var media_container_default = MediaContainer;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/attribute-token-list.js
 var __accessCheck3 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -1249,7 +1249,7 @@ _el = /* @__PURE__ */ new WeakMap();
 _attr = /* @__PURE__ */ new WeakMap();
 _tokens = /* @__PURE__ */ new WeakMap();
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/captions.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/captions.js
 var splitTextTracksStr = (textTracksStr = "") => textTracksStr.split(/\s+/);
 var parseTextTrackStr = (textTrackStr = "") => {
   const [language, encodedLabel] = textTrackStr.split(":");
@@ -1372,7 +1372,7 @@ var toggleSubsCaps = (el, forceOff = false) => {
   }
 };
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/fullscreenApi.js
 var fullscreenApi = {
   enter: "requestFullscreen",
   exit: "exitFullscreen",
@@ -1390,7 +1390,7 @@ if (Document.fullscreenElement === void 0) {
   fullscreenApi.enabled = "webkitFullscreenEnabled";
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/platform-tests.js
 var testMediaEl;
 var getTestMediaEl = () => {
   var _a, _b;
@@ -1420,7 +1420,7 @@ var pipSupported = hasPipSupport();
 var airplaySupported = !!Window.WebKitPlaybackTargetAvailabilityEvent;
 var castSupported = !!Window.chrome;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/controller.js
+// ../groundbreak-player/node_modules/media-chrome/dist/controller.js
 var volumeSupported;
 var volumeSupportPromise = hasVolumeSupportAsync().then((supported) => {
   volumeSupported = supported;
@@ -1983,7 +1983,7 @@ var MediaUIRequestHandlers = {
   }
 };
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-controller.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-controller.js
 var __accessCheck4 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2457,7 +2457,7 @@ if (!Window.customElements.get("media-controller")) {
 }
 var media_controller_default = MediaController;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-chrome-range.js
 var __accessCheck5 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2769,7 +2769,7 @@ if (!Window.customElements.get("media-chrome-range")) {
 }
 var media_chrome_range_default = MediaChromeRange;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-control-bar.js
 var __accessCheck6 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2856,7 +2856,7 @@ if (!Window.customElements.get("media-control-bar")) {
   Window.customElements.define("media-control-bar", MediaControlBar);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-text-display.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-text-display.js
 var __accessCheck7 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -2960,7 +2960,7 @@ if (!Window.customElements.get("media-text-display")) {
 }
 var media_text_display_default = MediaTextDisplay;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-current-time-display.js
 var __accessCheck8 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3002,7 +3002,7 @@ if (!Window.customElements.get("media-current-time-display")) {
   Window.customElements.define("media-current-time-display", MediaCurrentTimeDisplay);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-duration-display.js
 var __accessCheck9 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3044,7 +3044,7 @@ if (!Window.customElements.get("media-duration-display")) {
   Window.customElements.define("media-duration-display", MediaDurationDisplay);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-display.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-time-display.js
 var __accessCheck10 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3210,7 +3210,7 @@ if (!Window.customElements.get("media-time-display")) {
   Window.customElements.define("media-time-display", MediaTimeDisplay);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-captions-button.js
 var ccIconOn = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M22.83 5.68a2.58 2.58 0 0 0-2.3-2.5c-3.62-.24-11.44-.24-15.06 0a2.58 2.58 0 0 0-2.3 2.5c-.23 4.21-.23 8.43 0 12.64a2.58 2.58 0 0 0 2.3 2.5c3.62.24 11.44.24 15.06 0a2.58 2.58 0 0 0 2.3-2.5c.23-4.21.23-8.43 0-12.64Zm-11.39 9.45a3.07 3.07 0 0 1-1.91.57 3.06 3.06 0 0 1-2.34-1 3.75 3.75 0 0 1-.92-2.67 3.92 3.92 0 0 1 .92-2.77 3.18 3.18 0 0 1 2.43-1 2.94 2.94 0 0 1 2.13.78c.364.359.62.813.74 1.31l-1.43.35a1.49 1.49 0 0 0-1.51-1.17 1.61 1.61 0 0 0-1.29.58 2.79 2.79 0 0 0-.5 1.89 3 3 0 0 0 .49 1.93 1.61 1.61 0 0 0 1.27.58 1.48 1.48 0 0 0 1-.37 2.1 2.1 0 0 0 .59-1.14l1.4.44a3.23 3.23 0 0 1-1.07 1.69Zm7.22 0a3.07 3.07 0 0 1-1.91.57 3.06 3.06 0 0 1-2.34-1 3.75 3.75 0 0 1-.92-2.67 3.88 3.88 0 0 1 .93-2.77 3.14 3.14 0 0 1 2.42-1 3 3 0 0 1 2.16.82 2.8 2.8 0 0 1 .73 1.31l-1.43.35a1.49 1.49 0 0 0-1.51-1.21 1.61 1.61 0 0 0-1.29.58A2.79 2.79 0 0 0 15 12a3 3 0 0 0 .49 1.93 1.61 1.61 0 0 0 1.27.58 1.44 1.44 0 0 0 1-.37 2.1 2.1 0 0 0 .6-1.15l1.4.44a3.17 3.17 0 0 1-1.1 1.7Z"/>
 </svg>`;
@@ -3293,7 +3293,7 @@ if (!Window.customElements.get("media-captions-button")) {
   Window.customElements.define("media-captions-button", MediaCaptionsButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-seek-forward-button.js
 var DEFAULT_SEEK_OFFSET2 = "30";
 var forwardIcon = `<svg aria-hidden="true" viewBox="0 0 20 24"><defs><style>.text{font-size:8px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style></defs><text class="text value" transform="translate(8.9 19.87)">${DEFAULT_SEEK_OFFSET2}</text><path d="M10 6V3l5.61 4L10 10.94V8a5.54 5.54 0 0 0-1.9 10.48v2.12A7.5 7.5 0 0 1 10 6Z"/></svg>`;
 var slotTemplate4 = Document.createElement("template");
@@ -3359,7 +3359,7 @@ if (!Window.customElements.get("media-seek-forward-button")) {
   Window.customElements.define("media-seek-forward-button", MediaSeekForwardButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-fullscreen-button.js
 var enterFullscreenIcon = `<svg aria-hidden="true" viewBox="0 0 26 24">
   <path d="M16 3v2.5h3.5V9H22V3h-6ZM4 9h2.5V5.5H10V3H4v6Zm15.5 9.5H16V21h6v-6h-2.5v3.5ZM6.5 15H4v6h6v-2.5H6.5V15Z"/>
 </svg>`;
@@ -3421,7 +3421,7 @@ if (!Window.customElements.get("media-fullscreen-button")) {
   Window.customElements.define("media-fullscreen-button", MediaFullscreenButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-live-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-live-button.js
 var { MEDIA_TIME_IS_LIVE, MEDIA_PAUSED } = MediaUIAttributes;
 var { MEDIA_SEEK_TO_LIVE_REQUEST, MEDIA_PLAY_REQUEST } = MediaUIEvents;
 var indicatorSVG = '<svg viewBox="0 0 6 12"><circle cx="3" cy="6" r="2"></circle></svg>';
@@ -3492,7 +3492,7 @@ if (!Window.customElements.get("media-live-button")) {
   Window.customElements.define("media-live-button", MediaLiveButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-mute-button.js
 var offIcon = `<svg aria-hidden="true" viewBox="0 0 24 24">
   <path d="M16.5 12A4.5 4.5 0 0 0 14 8v2.18l2.45 2.45a4.22 4.22 0 0 0 .05-.63Zm2.5 0a6.84 6.84 0 0 1-.54 2.64L20 16.15A8.8 8.8 0 0 0 21 12a9 9 0 0 0-7-8.77v2.06A7 7 0 0 1 19 12ZM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25A6.92 6.92 0 0 1 14 18.7v2.06A9 9 0 0 0 17.69 19l2 2.05L21 19.73l-9-9L4.27 3ZM12 4 9.91 6.09 12 8.18V4Z"/>
 </svg>`;
@@ -3567,7 +3567,7 @@ if (!Window.customElements.get("media-mute-button")) {
   Window.customElements.define("media-mute-button", MediaMuteButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-pip-button.js
 var pipIcon = `<svg aria-hidden="true" viewBox="0 0 28 24">
   <path d="M24 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1Zm-1 16H5V5h18v14Zm-3-8h-7v5h7v-5Z"/>
 </svg>`;
@@ -3622,7 +3622,7 @@ if (!Window.customElements.get("media-pip-button")) {
   Window.customElements.define("media-pip-button", MediaPipButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-play-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-play-button.js
 var playIcon = `<svg aria-hidden="true" viewBox="0 0 24 24">
   <path d="m6 21 15-9L6 3v18Z"/>
 </svg>`;
@@ -3679,7 +3679,7 @@ if (!Window.customElements.get("media-play-button")) {
   Window.customElements.define("media-play-button", MediaPlayButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-playback-rate-button.js
 var DEFAULT_RATES = [1, 1.25, 1.5, 1.75, 2];
 var DEFAULT_RATE = 1;
 var slotTemplate10 = Document.createElement("template");
@@ -3730,7 +3730,7 @@ if (!Window.customElements.get("media-playback-rate-button")) {
   Window.customElements.define("media-playback-rate-button", MediaPlaybackRateButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-poster-image.js
 var template7 = Document.createElement("template");
 template7.innerHTML = `
   <style>
@@ -3794,7 +3794,7 @@ if (!Window.customElements.get("media-poster-image")) {
   Window.customElements.define("media-poster-image", MediaPosterImage);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-seek-backward-button.js
 var DEFAULT_SEEK_OFFSET3 = "30";
 var backwardIcon = `<svg aria-hidden="true" viewBox="0 0 20 24"><defs><style>.text{font-size:8px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style></defs><text class="text value" transform="translate(2.18 19.87)">${DEFAULT_SEEK_OFFSET3}</text><path d="M10 6V3L4.37 7 10 10.94V8a5.54 5.54 0 0 1 1.9 10.48v2.12A7.5 7.5 0 0 0 10 6Z"/></svg>`;
 var slotTemplate11 = Document.createElement("template");
@@ -3860,7 +3860,7 @@ if (!Window.customElements.get("media-seek-backward-button")) {
   Window.customElements.define("media-seek-backward-button", MediaSeekBackwardButton);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-preview-time-display.js
 var __accessCheck11 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -3902,7 +3902,7 @@ if (!Window.customElements.get("media-preview-time-display")) {
   Window.customElements.define("media-preview-time-display", MediaPreviewTimeDisplay);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-preview-thumbnail.js
 var __accessCheck12 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4038,7 +4038,7 @@ if (!Window.customElements.get("media-preview-thumbnail")) {
   Window.customElements.define("media-preview-thumbnail", MediaPreviewThumbnail);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-time-range.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-time-range.js
 var __accessCheck13 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4465,7 +4465,7 @@ if (!Window.customElements.get("media-time-range")) {
   Window.customElements.define("media-time-range", MediaTimeRange);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-loading-indicator.js
 var __accessCheck14 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -4614,7 +4614,7 @@ if (!Window.customElements.get("media-loading-indicator")) {
   Window.customElements.define("media-loading-indicator", MediaLoadingIndicator);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-volume-range.js
 var DEFAULT_MAX_VOLUME = 100;
 var toVolume = (el) => {
   var _a;
@@ -4669,7 +4669,7 @@ if (!Window.customElements.get("media-volume-range")) {
   Window.customElements.define("media-volume-range", MediaVolumeRange);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/index.js
+// ../groundbreak-player/node_modules/media-chrome/dist/index.js
 var MediaChrome = class extends media_controller_default {
 };
 if (!Window.customElements.get("media-chrome")) {
@@ -4687,7 +4687,7 @@ if (!Window.customElements.get("media-container")) {
   Window.customElements.define("media-container", MediaContainer2);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js
+// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listbox.js
 var __accessCheck15 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5069,7 +5069,7 @@ if (!Window.customElements.get("media-chrome-listbox")) {
 }
 var media_chrome_listbox_default = MediaChromeListbox;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js
+// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-selectmenu.js
 var __accessCheck16 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5363,7 +5363,7 @@ if (!Window.customElements.get("media-chrome-selectmenu")) {
 }
 var media_chrome_selectmenu_default = MediaChromeSelectMenu;
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js
+// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-chrome-listitem.js
 var template13 = Document.createElement("template");
 template13.innerHTML = `
 <style>
@@ -5469,7 +5469,7 @@ if (!Window.customElements.get("media-chrome-listitem")) {
   Window.customElements.define("media-chrome-listitem", MediaChromeListitem);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js
+// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-listbox.js
 var __accessCheck17 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -5696,7 +5696,7 @@ if (!Window.customElements.get("media-captions-listbox")) {
   Window.customElements.define("media-captions-listbox", MediaCaptionsListbox);
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js
+// ../groundbreak-player/node_modules/media-chrome/dist/experimental/media-captions-selectmenu.js
 var MediaCaptionsSelectMenu = class extends media_chrome_selectmenu_default {
   constructor() {
     super();
@@ -5723,7 +5723,7 @@ if (!Window.customElements.get("media-captions-selectmenu")) {
   Window.customElements.define("media-captions-selectmenu", MediaCaptionsSelectMenu);
 }
 
-// node_modules/@groundbreak/groundbreak-player/dist/index.mjs
+// ../groundbreak-player/dist/index.mjs
 import MuxVideoElement, {
   MediaError as MediaError2,
   Attributes as MuxVideoAttributes
@@ -5738,7 +5738,7 @@ import {
 import { VideoEvents } from "@mux/mux-video";
 import { StreamTypes as StreamTypes2 } from "@mux/playback-core";
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js
 var __defProp2 = Object.defineProperty;
 var __defNormalProp2 = (obj, key, value) => key in obj ? __defProp2(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField2 = (obj, key, value) => {
@@ -6074,7 +6074,7 @@ function swapdom(parent, a, b, end = null) {
   return b;
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js
+// ../groundbreak-player/node_modules/media-chrome/dist/utils/template-processor.js
 var pipeModifiers = {
   string: (value) => String(value)
 };
@@ -6302,7 +6302,7 @@ function tokenize2(str, parsers) {
   return tokens;
 }
 
-// node_modules/@groundbreak/groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js
+// ../groundbreak-player/node_modules/media-chrome/dist/media-theme-element.js
 var __defProp3 = Object.defineProperty;
 var __defNormalProp3 = (obj, key, value) => key in obj ? __defProp3(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField3 = (obj, key, value) => {
@@ -6518,7 +6518,7 @@ if (!Window.customElements.get("media-theme")) {
   Window.customElements.define("media-theme", MediaThemeElement);
 }
 
-// node_modules/@groundbreak/groundbreak-player/dist/index.mjs
+// ../groundbreak-player/dist/index.mjs
 import { StreamTypes as StreamTypes22 } from "@mux/playback-core";
 import { MediaError } from "@mux/mux-video";
 var __accessCheck20 = (obj, member, msg) => {
@@ -7101,7 +7101,7 @@ function getVideoAttribute(el, name) {
   return el.media ? el.media.getAttribute(name) : el.getAttribute(name);
 }
 var video_api_default = VideoApiElement;
-var styles_default = ":host {\n  --media-control-display: var(--controls);\n  --media-loading-indicator-display: var(--loading-indicator);\n  --media-dialog-display: var(--dialog);\n  --media-play-button-display: var(--play-button);\n  --media-live-button-display: var(--live-button);\n  --media-seek-backward-button-display: var(--seek-backward-button);\n  --media-seek-forward-button-display: var(--seek-forward-button);\n  --media-mute-button-display: var(--mute-button);\n  --media-captions-button-display: var(--captions-button);\n  --media-captions-selectmenu-display: var(--captions-selectmenu, var(--media-captions-button-display));\n  --media-airplay-button-display: var(--airplay-button);\n  --media-pip-button-display: var(--pip-button);\n  --media-fullscreen-button-display: var(--fullscreen-button);\n  --media-cast-button-display: var(--cast-button);\n  --media-playback-rate-button-display: var(--playback-rate-button);\n  --media-volume-range-display: var(--volume-range);\n  --media-time-range-display: var(--time-range);\n  --media-time-display-display: var(--time-display);\n  --media-duration-display-display: var(--duration-display);\n  --media-title-display-display: var(--title-display);\n\n  display: inline-block;\n  width: 100%;\n}\n\n/* Hide custom elements that are not defined yet */\n:not(:defined) {\n  display: none;\n}\n\na {\n  color: #fff;\n  font-size: 0.9em;\n  text-decoration: underline;\n}\n\nmedia-theme {\n  width: 100%;\n  height: 100%;\n  direction: ltr;\n}\n\n::part(top),\n[part~='top'] {\n  --media-control-display: var(--controls, var(--top-controls));\n  --media-play-button-display: var(--play-button, var(--top-play-button));\n  --media-live-button-display: var(--live-button, var(--top-live-button));\n  --media-seek-backward-button-display: var(--seek-backward-button, var(--top-seek-backward-button));\n  --media-seek-forward-button-display: var(--seek-forward-button, var(--top-seek-forward-button));\n  --media-mute-button-display: var(--mute-button, var(--top-mute-button));\n  --media-captions-button-display: var(--captions-button, var(--top-captions-button));\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--top-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(--airplay-button, var(--top-airplay-button));\n  --media-pip-button-display: var(--pip-button, var(--top-pip-button));\n  --media-fullscreen-button-display: var(--fullscreen-button, var(--top-fullscreen-button));\n  --media-cast-button-display: var(--cast-button, var(--top-cast-button));\n  --media-playback-rate-button-display: var(--playback-rate-button, var(--top-playback-rate-button));\n  --media-volume-range-display: var(--volume-range, var(--top-volume-range));\n  --media-time-range-display: var(--time-range, var(--top-time-range));\n  --media-time-display-display: var(--time-display, var(--top-time-display));\n  --media-duration-display-display: var(--duration-display, var(--top-duration-display));\n  --media-title-display-display: var(--title-display, var(--top-title-display));\n}\n\n::part(center),\n[part~='center'] {\n  --media-control-display: var(--controls, var(--center-controls));\n  --media-play-button-display: var(--play-button, var(--center-play-button));\n  --media-live-button-display: var(--live-button, var(--center-live-button));\n  --media-seek-backward-button-display: var(--seek-backward-button, var(--center-seek-backward-button));\n  --media-seek-forward-button-display: var(--seek-forward-button, var(--center-seek-forward-button));\n  --media-mute-button-display: var(--mute-button, var(--center-mute-button));\n  --media-captions-button-display: var(--captions-button, var(--center-captions-button));\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--center-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(--airplay-button, var(--center-airplay-button));\n  --media-pip-button-display: var(--pip-button, var(--center-pip-button));\n  --media-fullscreen-button-display: var(--fullscreen-button, var(--center-fullscreen-button));\n  --media-cast-button-display: var(--cast-button, var(--center-cast-button));\n  --media-playback-rate-button-display: var(--playback-rate-button, var(--center-playback-rate-button));\n  --media-volume-range-display: var(--volume-range, var(--center-volume-range));\n  --media-time-range-display: var(--time-range, var(--center-time-range));\n  --media-time-display-display: var(--time-display, var(--center-time-display));\n  --media-duration-display-display: var(--duration-display, var(--center-duration-display));\n}\n\n::part(bottom),\n[part~='bottom'] {\n  --media-control-display: var(--controls, var(--bottom-controls));\n  --media-play-button-display: var(--play-button, var(--bottom-play-button));\n  --media-live-button-display: var(--live-button, var(--bottom-live-button));\n  --media-seek-backward-button-display: var(--seek-backward-button, var(--bottom-seek-backward-button));\n  --media-seek-forward-button-display: var(--seek-forward-button, var(--bottom-seek-forward-button));\n  --media-mute-button-display: var(--mute-button, var(--bottom-mute-button));\n  --media-captions-button-display: var(--captions-button, var(--bottom-captions-button));\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--bottom-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(--airplay-button, var(--bottom-airplay-button));\n  --media-pip-button-display: var(--pip-button, var(--bottom-pip-button));\n  --media-fullscreen-button-display: var(--fullscreen-button, var(--bottom-fullscreen-button));\n  --media-cast-button-display: var(--cast-button, var(--bottom-cast-button));\n  --media-playback-rate-button-display: var(--playback-rate-button, var(--bottom-playback-rate-button));\n  --media-volume-range-display: var(--volume-range, var(--bottom-volume-range));\n  --media-time-range-display: var(--time-range, var(--bottom-time-range));\n  --media-time-display-display: var(--time-display, var(--bottom-time-display));\n  --media-duration-display-display: var(--duration-display, var(--bottom-duration-display));\n  --media-title-display-display: var(--title-display, var(--bottom-title-display));\n}\n";
+var styles_default = ':host {\n  --media-control-display: var(--controls);\n  --media-loading-indicator-display: var(--loading-indicator);\n  --media-dialog-display: var(--dialog);\n  --media-play-button-display: var(--play-button);\n  --media-live-button-display: var(--live-button);\n  --media-seek-backward-button-display: var(--seek-backward-button);\n  --media-seek-forward-button-display: var(--seek-forward-button);\n  --media-mute-button-display: var(--mute-button);\n  --media-captions-button-display: var(--captions-button);\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display)\n  );\n  --media-airplay-button-display: var(--airplay-button);\n  --media-pip-button-display: var(--pip-button);\n  --media-fullscreen-button-display: var(--fullscreen-button);\n  --media-cast-button-display: var(--cast-button);\n  --media-playback-rate-button-display: var(--playback-rate-button);\n  --media-volume-range-display: var(--volume-range);\n  --media-time-range-display: var(--time-range);\n  --media-time-display-display: var(--time-display);\n  --media-duration-display-display: var(--duration-display);\n  --media-title-display-display: var(--title-display);\n\n  display: inline-block;\n  width: 100%;\n}\n\n/* Hide custom elements that are not defined yet */\n:not(:defined) {\n  display: none;\n}\n\na {\n  color: #fff;\n  font-size: 0.9em;\n  text-decoration: underline;\n}\n\nmedia-theme {\n  width: 100%;\n  height: 100%;\n  direction: ltr;\n}\n\n::part(top),\n[part~="top"] {\n  --media-control-display: var(--controls, var(--top-controls));\n  --media-play-button-display: var(--play-button, var(--top-play-button));\n  --media-live-button-display: var(--live-button, var(--top-live-button));\n  --media-seek-backward-button-display: var(\n    --seek-backward-button,\n    var(--top-seek-backward-button)\n  );\n  --media-seek-forward-button-display: var(\n    --seek-forward-button,\n    var(--top-seek-forward-button)\n  );\n  --media-mute-button-display: var(--mute-button, var(--top-mute-button));\n  --media-captions-button-display: var(\n    --captions-button,\n    var(--top-captions-button)\n  );\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--top-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(\n    --airplay-button,\n    var(--top-airplay-button)\n  );\n  --media-pip-button-display: var(--pip-button, var(--top-pip-button));\n  --media-fullscreen-button-display: var(\n    --fullscreen-button,\n    var(--top-fullscreen-button)\n  );\n  --media-cast-button-display: var(--cast-button, var(--top-cast-button));\n  --media-playback-rate-button-display: var(\n    --playback-rate-button,\n    var(--top-playback-rate-button)\n  );\n  --media-volume-range-display: var(--volume-range, var(--top-volume-range));\n  --media-time-range-display: var(--time-range, var(--top-time-range));\n  --media-time-display-display: var(--time-display, var(--top-time-display));\n  --media-duration-display-display: var(\n    --duration-display,\n    var(--top-duration-display)\n  );\n  --media-title-display-display: var(--title-display, var(--top-title-display));\n}\n\n::part(center),\n[part~="center"] {\n  --media-control-display: var(--controls, var(--center-controls));\n  --media-play-button-display: var(--play-button, var(--center-play-button));\n  --media-live-button-display: var(--live-button, var(--center-live-button));\n  --media-seek-backward-button-display: var(\n    --seek-backward-button,\n    var(--center-seek-backward-button)\n  );\n  --media-seek-forward-button-display: var(\n    --seek-forward-button,\n    var(--center-seek-forward-button)\n  );\n  --media-mute-button-display: var(--mute-button, var(--center-mute-button));\n  --media-captions-button-display: var(\n    --captions-button,\n    var(--center-captions-button)\n  );\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--center-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(\n    --airplay-button,\n    var(--center-airplay-button)\n  );\n  --media-pip-button-display: var(--pip-button, var(--center-pip-button));\n  --media-fullscreen-button-display: var(\n    --fullscreen-button,\n    var(--center-fullscreen-button)\n  );\n  --media-cast-button-display: var(--cast-button, var(--center-cast-button));\n  --media-playback-rate-button-display: var(\n    --playback-rate-button,\n    var(--center-playback-rate-button)\n  );\n  --media-volume-range-display: var(--volume-range, var(--center-volume-range));\n  --media-time-range-display: var(--time-range, var(--center-time-range));\n  --media-time-display-display: var(--time-display, var(--center-time-display));\n  --media-duration-display-display: var(\n    --duration-display,\n    var(--center-duration-display)\n  );\n}\n\n::part(bottom),\n[part~="bottom"] {\n  --media-control-display: var(--controls, var(--bottom-controls));\n  --media-play-button-display: var(--play-button, var(--bottom-play-button));\n  --media-live-button-display: var(--live-button, var(--bottom-live-button));\n  --media-seek-backward-button-display: var(\n    --seek-backward-button,\n    var(--bottom-seek-backward-button)\n  );\n  --media-seek-forward-button-display: var(\n    --seek-forward-button,\n    var(--bottom-seek-forward-button)\n  );\n  --media-mute-button-display: var(--mute-button, var(--bottom-mute-button));\n  --media-captions-button-display: var(\n    --captions-button,\n    var(--bottom-captions-button)\n  );\n  --media-captions-selectmenu-display: var(\n    --captions-selectmenu,\n    var(--media-captions-button-display, var(--bottom-captions-selectmenu))\n  );\n  --media-airplay-button-display: var(\n    --airplay-button,\n    var(--bottom-airplay-button)\n  );\n  --media-pip-button-display: var(--pip-button, var(--bottom-pip-button));\n  --media-fullscreen-button-display: var(\n    --fullscreen-button,\n    var(--bottom-fullscreen-button)\n  );\n  --media-cast-button-display: var(--cast-button, var(--bottom-cast-button));\n  --media-playback-rate-button-display: var(\n    --playback-rate-button,\n    var(--bottom-playback-rate-button)\n  );\n  --media-volume-range-display: var(--volume-range, var(--bottom-volume-range));\n  --media-time-range-display: var(--time-range, var(--bottom-time-range));\n  --media-time-display-display: var(--time-display, var(--bottom-time-display));\n  --media-duration-display-display: var(\n    --duration-display,\n    var(--bottom-duration-display)\n  );\n  --media-title-display-display: var(\n    --title-display,\n    var(--bottom-title-display)\n  );\n}\n\ndiv.center-controls {\n  position: relative;\n  z-index: 9999;\n}\n';
 var media_theme_mux_default = `<!-- prettier-ignore -->
 <template id="media-theme-mux">
   <style>
@@ -8469,6 +8469,7 @@ var content = (props) => {
           />` : html``}
     </mux-video>
     <media-poster-image
+      no-auto-hide
       slot="poster"
       part="poster"
       src="${props.poster === "" ? false : (_B = props.poster) != null ? _B : false}"
