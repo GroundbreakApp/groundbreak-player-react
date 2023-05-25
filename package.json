@@ -65,7 +65,7 @@
     }
   },
   "dependencies": {
-    "@groundbreak/groundbreak-player": "git+https://github.com/GroundbreakApp/groundbreak-player.git",
+    "@groundbreak/groundbreak-player": "git+https://github.com/GroundbreakApp/groundbreak-player.git#commit-ish",
     "@mux/mux-player": "1.10.1",
     "@mux/playback-core": "0.18.0",
     "prop-types": "^15.7.2"
