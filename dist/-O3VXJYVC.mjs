@@ -8101,7 +8101,7 @@ template32.innerHTML = `
   </style>
 
   <div id="groundbreak-widget-container" style="position: absolute; margin: auto; left:0; right:0; width: 100%; height: 100%; z-index: 99999; pointer-events: none">
-  </div>;
+  </div>
 `;
 var _resize;
 var resize_fn;
@@ -10014,4 +10014,4 @@ export {
   MediaError2 as MediaError,
   src_default as default
 };
-//# sourceMappingURL=-ZK4C2YTT.mjs.map
+//# sourceMappingURL=-O3VXJYVC.mjs.map

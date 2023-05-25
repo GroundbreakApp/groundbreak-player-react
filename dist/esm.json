@@ -934,7 +934,7 @@
       ]
     },
     "../groundbreak-player/dist/index.mjs": {
-      "bytes": 118696,
+      "bytes": 118695,
       "imports": [
         {
           "path": "../groundbreak-player/node_modules/media-chrome/dist/index.js",
@@ -1001,7 +1001,7 @@
       "imports": [],
       "exports": [],
       "inputs": {},
-      "bytes": 608226
+      "bytes": 608225
     },
     "dist/index.mjs": {
       "imports": [],
@@ -1147,7 +1147,7 @@
           "bytesInOutput": 1028
         },
         "../groundbreak-player/dist/index.mjs": {
-          "bytesInOutput": 118654
+          "bytesInOutput": 118653
         },
         "../groundbreak-player/node_modules/media-chrome/dist/utils/template-parts.js": {
           "bytesInOutput": 10539
@@ -1171,7 +1171,7 @@
           "bytesInOutput": 210
         }
       },
-      "bytes": 365462
+      "bytes": 365461
     }
   }
 }
